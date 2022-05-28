@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
 
   public static void main( String[] args ) {
@@ -7,14 +9,16 @@ public class Main {
     while (true) {
 
       printToScreen("Numerator: " , false);
-      String numeratorInput = System.console().readLine();
+      
+      Scanner scanner = new Scanner(System.in);
+      String numeratorInput = scanner.nextLine();
 
       if ("exit".equals(numeratorInput)) {
         break;
       }
 
       printToScreen("Demoninator: " , false);
-      String denominatorInput = System.console().readLine();
+      String denominatorInput = scanner.nextLine();
 
       int numerator = Integer.parseInt(numeratorInput);
       int denominator = Integer.parseInt(denominatorInput);

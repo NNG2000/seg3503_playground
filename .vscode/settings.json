@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "Lab1\\newmath_java\\src"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ]
+}
