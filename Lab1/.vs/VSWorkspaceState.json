@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\newmath_ex",
+    "\\newmath_ex\\bin",
+    "\\newmath_ex\\lib",
+    "\\newmath_ex\\test",
+    "\\newmath_java",
+    "\\newmath_java\\bin",
+    "\\newmath_java\\src",
+    "\\newmath_java\\test"
+  ],
+  "SelectedNode": "\\newmath_java\\test\\NewmathTest.java",
+  "PreviewInSolutionExplorer": false
+}
