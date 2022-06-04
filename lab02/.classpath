@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="ecs/ecs/src"/>
+	<classpathentry kind="src" path="ecs/ecs/test"/>
+	<classpathentry kind="lib" path="ecs/ecs/lib/junit-platform-console-standalone-1.7.1.jar"/>
+	<classpathentry kind="lib" path="registration/__MACOSX/registration/._user-registration-app-0.1.0.jar"/>
+	<classpathentry kind="lib" path="registration/registration/user-registration-app-0.1.0.jar"/>
+	<classpathentry kind="output" path="ecs/ecs/dist"/>
+</classpath>

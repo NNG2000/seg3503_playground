@@ -88,28 +88,25 @@ class DateTest{
   }
   @Test
   void nextDate_sample_g() {
-    Date d = new Date(1500,02,31);
-    assertEquals("IllegalArgumentException", d.nextDate());
+    assertThrows(IllegalArgumentException.class, () ->  new Date(1500,02,31), "day must less than 28 for month " + "February" + " on a non leap year. should throw an IllegalArgumentException");
   }
   @Test
   void nextDate_sample_h() {
-    Date d = new Date(1500,02,29);
-    assertEquals("IllegalArgumentException", d.nextDate());
+    
+    assertThrows(IllegalArgumentException.class, () ->  new Date(1500,02,29), "day must less than 28 for month " + "February" + " on a non leap year. should throw an IllegalArgumentException");
   }
   @Test
   void nextDate_sample_i() {
-    Date d = new Date(-1,10,20);
-    assertEquals("IllegalArgumentException", d.nextDate());
+    
+    assertThrows(IllegalArgumentException.class, () ->  new Date(-1,10,20));
   }
   @Test
   void nextDate_sample_j() {
-    Date d = new Date(1458,15,12);
-    assertEquals("IllegalArgumentException", d.nextDate());
+    assertThrows(IllegalArgumentException.class, () ->  new Date(1458,15,12));
   }
   @Test
   void nextDate_sample_k() {
-    Date d = new Date(1975,06,-50);
-    assertEquals("IllegalArgumentException", d.nextDate());
+    assertThrows(IllegalArgumentException.class, () ->  new Date(1975,06,-50));
   }
   
 
