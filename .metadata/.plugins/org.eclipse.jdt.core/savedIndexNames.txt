@@ -1,0 +1,11 @@
+INDEX VERSION 1.131+C:\Users\gerau\Documents\seg3503_playground\.metadata\.plugins\org.eclipse.jdt.core
+1242677648.index
+2278272241.index
+2948206547.index
+597704753.index
+1569098014.index
+2762546373.index
+3083284931.index
+1176741894.index
+4074006434.index
+1795933558.index
