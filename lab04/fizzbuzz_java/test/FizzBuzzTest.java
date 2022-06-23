@@ -7,13 +7,20 @@ import org.junit.jupiter.api.Test;
 import src.FizzBuzz;
 
 class FizzBuzzTest {
+    /*test failed */
     @Test
     void test1(){
       assertEquals("fizz", FizzBuzz.fizzbuzz(1));
     }
+    /*test failed */
     @Test
     void test2(){
       assertEquals("0", FizzBuzz.fizzbuzz(0));
+    }
+    /*test failed */
+    @Test
+    void test3(){
+      assertEquals("5", FizzBuzz.fizzbuzz(5));
     }
 
 }
