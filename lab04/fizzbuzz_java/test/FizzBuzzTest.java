@@ -22,5 +22,11 @@ class FizzBuzzTest {
     void test3(){
       assertEquals("5", FizzBuzz.fizzbuzz(5));
     }
+    /*test passed */
+    @Test
+    void test4(){
+      assertEquals("FizzBuzz", FizzBuzz.fizzbuzz(0));
+    }
+
 
 }
